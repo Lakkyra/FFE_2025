@@ -50,8 +50,6 @@ class _CreateTaskState extends State<CreateTask> {
 
               showSnackBar(context, "Task added!");
               Navigator.of(context).pop(true);
-
-              /
             } else {
               showSnackBar(context, "Please enter the required details!");
             }
